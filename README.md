@@ -7,3 +7,5 @@ ToDo is an App where you can storage tasks that needs to be done. You can storag
 - Event delegation
 - Local Storage
 - JSON
+
+[Project link](https://leandroluz97.github.io/to-do-app/) 
