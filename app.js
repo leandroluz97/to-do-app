@@ -64,7 +64,7 @@ function getTodos() {
 // Add a new todo
 function addTodo(e) {
   e.preventDefault();
-  const plusItem = input.value;
+  const plusItem = input.value.replace(/<[^>]*>/g, '');
   if (plusItem.length > 0) {
     const objItem = {
       id: id,
